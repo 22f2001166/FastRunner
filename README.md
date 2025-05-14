@@ -38,6 +38,8 @@
 - Timer tracking for each level
 - Best time stored in Session Storage.
 
+---
+
 ## ⚙️ How It Works
 
 Each level is dynamically generated using the following steps:
@@ -49,6 +51,8 @@ Each level is dynamically generated using the following steps:
 
 This ensures that every level is **solvable, unique, and challenging**.
 
+---
+
 ## How to run
 
 ```bash
@@ -57,5 +61,7 @@ cd FastRunner
 ```
 
 - Open index.html in your browser and enjoy the game.
+
+---
 
 ![FR](FR.png)
