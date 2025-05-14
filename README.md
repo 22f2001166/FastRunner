@@ -56,8 +56,7 @@ This ensures that every level is **solvable, unique, and challenging**.
 ## How to run
 
 ```bash
-git clone https://github.com/your-username/FastRunner-Game.git
-cd FastRunner
+git clone https://github.com/22f2001166/FastRunner.git
 ```
 
 - Open index.html in your browser and enjoy the game.
