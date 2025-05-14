@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FastRunner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="infoArea">
+      <div id="header">
+        <h1>FastRunner</h1> <!-- Game title -->
+        <h2 id="levelDisplay">Level 1</h2> <!-- Display current level -->
+      </div>
+      <div id="instructions">
+        <h3>Use arrow keys to move the player.</h3>
+        <h3>Reach the <span style="color: red;">red tile</span> to finish a level.</h3>
+        <h3>Keep away from <span style="color: white;">traps</span>, they can redirect you to starting tile.</h3>
+        <h3><span style="color: magenta;">Terminal</span> will show you when you are nearer to traps.</h3>
+        <h3>If you step on the <span style="color: blue;">blue tile</span>, it will freeze your movement for 2 seconds.</h3>
+        <h3>There is some magic in a <span style="color: pink;">magic tile</span></h3>
+        <h3>Compete with yourself, More commands coming soon!</h3>
+      </div>
+      <div id="terminal"></div>
+    </div>
+    <div id="gameArea">
+      <canvas id="gameCanvas" width="640" height="640"></canvas>
+    </div>
+    <div id="timeStats">
+      <h3>Level Completion Times</h3>
+      <ul id="timeList"></ul>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
